@@ -1,0 +1,240 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing : border-box;
+}
+.container{
+    max-width : 1368px;
+}
+.top{
+    padding-top: 10px;
+}
+h5{
+    font-size : 15px;
+    padding-top: 20px;
+    
+}
+.top img{
+    width : 100px;
+    height : 100px;
+}
+.dot{
+  
+    width : 20px;
+    height : 3px;
+    background-color: black;
+    margin-top : 5px;
+}
+.menu{
+    cursor: pointer;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+ul li{
+    list-style: none;
+}
+nav#myNav{
+    width : 100%;
+    
+    background-color: black;
+    color : white;
+    
+}
+.order{
+    background-color: black;
+}
+ul li{
+    background-color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+ul li:hover{
+    background-color: white;
+}
+ul li:hover a{
+    color : black;
+    text-decoration: none;
+}
+ul li a{
+    color : white;
+   
+}
+ul li a:hover nav{
+    display: none;
+}
+.home{
+    margin-top : 50px;
+}
+h1{
+    margin-bottom: 10px;
+}
+.home p{
+    font-size : 12px;
+    font-weight : 500;
+    margin-top : 30px;
+}
+.home button{
+    border : none;
+    font-size : 12px;
+    outline : none;
+    background-color: rgb(236, 153, 33);
+    padding: 10px 15px;
+    color : white;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+.home button:hover{
+        background-color: orangered;
+        transition: 2s;
+}
+.home img{
+    width : 350px;
+    height : 350px;
+}
+.home i{
+    color : black;
+    margin-top : 30px;
+    margin-right : 20px;
+    font-size : 12px;
+    margin-left : 5px;
+}
+.eat{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background-color: rgb(231, 217, 199);
+}
+.eat img{
+    margin-top: 50px;
+    width : 250px;
+    height : 200px;
+    
+    margin-bottom: 40px;
+}
+.eat h4{
+    font-weight : bolder;
+}
+.eat p{
+    font-size : 14px;
+    padding-right: 100px;
+}
+.service{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.service img{
+    width  : 100px;
+    height : 100px;
+    border-radius: 50%;
+    text-align: center;
+
+}
+.service h4{
+    text-align: center;
+    font-size : 22px;
+    padding-bottom: 30px;
+    font-weight : 600;
+
+}
+.service h4::after{
+    
+        content: '';
+        background-color: orange;
+        width : 140px;
+        height : 4px;
+        
+        position: absolute;
+        margin-top : 3%;
+        left : 45%;
+        transform: translateY(-50%);
+    
+}
+.service h5{
+    color : orangered;
+    text-align: center;
+    font-weight: bolder;
+}
+.service p{
+    font-size : 13px;
+}
+.order{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background-color: rgb(196, 188, 188);
+}
+.order h4{
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    color : orangered;
+}
+
+.order p{
+    font-size : 15px;
+}
+.order .col-sm-4 img{
+    width : 300px;
+    height : 300px;
+    border-radius: 20px;
+}
+.order img{
+    height : 50px;
+    width : 100px;
+    margin-right: 20px;
+}
+.client{
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.client h4{
+    font-weight  : bolder;
+    padding-bottom: 20px;
+}
+.client p{
+    color : rgb(46, 43, 43);
+}
+.client img{
+    width : 320px;
+    height : 250px;
+}
+.item{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: rgb(236, 153, 33);
+}
+.item .col-sm-3 img{
+    width : 150px;
+    height : 150px;
+    margin-top : 10px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+.item  p span{
+    padding-left: 30px;
+    color : white;
+}
+.item p{
+    color : crimson;
+}
+.item .btn{
+    width : 140px;
+    height : 40px;
+    border-radius: 25px;
+    background-color: crimson;
+    color : white;
+}
+.item h4{
+    font-weight: bolder;
+    color : crimson;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.right{
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.rights h6{
+    font-weight: normal;
+    text-align: center;
+    color :rgb(179, 169, 169);
+}
